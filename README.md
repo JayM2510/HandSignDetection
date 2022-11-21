@@ -140,6 +140,15 @@ The model obtained is of Keras type.
 |                                                  A                                                               |
 
 
+## :rocket: Resources:
+
+- [Keras Module](https://keras.io/)
+- [TensorFlow install](https://www.tensorflow.org/install)
+- [Teaching Machine Tool](https://teachablemachine.withgoogle.com/)
+- [OpenCV](https://pypi.org/project/opencv-python/)
+- [American Sign Language](https://en.wikipedia.org/wiki/American_Sign_Language)
+- [Icons/Emojis](https://emojipedia.org/)
+
 
 
 
