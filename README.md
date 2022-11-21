@@ -35,6 +35,57 @@ It is a complete, natural language that has the same linguistic properties as sp
 
 `Tensorflow` : TensorFlow is a free and open-source software library for machine learning and artificial intelligence
 
+## 🖊️Working :
+
+<h3> • Starting the Webcam </h3>
+
+Import the CV module.
+
+Capture the Object. 
+
+Read and Display the image.
+
+| ![image](https://user-images.githubusercontent.com/111730373/203122330-ea1eb928-02eb-4514-a986-518518b6b6d4.png) | 
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                                  Code For webcam                                                 |              
+
+<h3> • Displaying Hand </h3>
+
+To detect a hand in the image we import HandDetector from cvzone and fix the number of hands as One.
+In it we also get the skeleton (joins and dots) which helps in recognition.
+
+| ![image](https://user-images.githubusercontent.com/111730373/203122640-f0628451-a41b-4655-b815-773eff784f70.png) | 
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                                  Displaying Hand Code                                            |   
+
+<h3> • Cropping Hand Image </h3>
+ In order to crop hand from the image we have to :
+ 
+1) Store the square image.
+
+2) Get the width and height of the bounded box (bbox).
+
+3) Create another image with the height and width of bounded box.
+
+4) If there is no hand present the cropped image collapses.
+
+| ![image](https://user-images.githubusercontent.com/111730373/203125839-9a91d264-be33-44fc-9d9d-81b196a01f68.png) |  
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                                  Cropped Hnad Image                                              |  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
