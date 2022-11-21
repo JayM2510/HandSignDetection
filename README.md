@@ -39,11 +39,11 @@ It is a complete, natural language that has the same linguistic properties as sp
 
 <h3> • Starting the Webcam </h3>
 
-Import the CV module.
+1) Import the CV module.
 
-Capture the Object. 
+2) Capture the Object. 
 
-Read and Display the image.
+3) Read and Display the image.
 
 | ![image](https://user-images.githubusercontent.com/111730373/203122330-ea1eb928-02eb-4514-a986-518518b6b6d4.png) | 
 | :--------------------------------------------------------------------------------------------------------------: |
@@ -73,6 +73,74 @@ In it we also get the skeleton (joins and dots) which helps in recognition.
 | :--------------------------------------------------------------------------------------------------------------: |
 |                                                  Cropped Hnad Image                                              |  
  
+ <h3> • Overlay </h3>
+Overlay process consists of -
+
+1) Creating a white square box using Numpy
+2) Finding the ratio between height and width
+3) Resizing the image according to ratio and place it inside the white box
+4) Saving images of respected sign
+
+| ![image](https://user-images.githubusercontent.com/111730373/203127300-e1dbb85c-e879-4819-bf64-c9ee798cbec2.png) |  
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                                  Image resizing                                                  |  
+
+After Resizing everything else is done what’s left is to capture the hand signs and save it.
+
+To capture an image we -
+
+1) First create a folder and store its location in any variable.
+  
+2) Assign a key to capture image.
+
+3) Use imwrite function to write/store the images along with an image name.
+
+| ![image](https://user-images.githubusercontent.com/111730373/203128179-80858267-0fcd-4a82-b8ed-779b17afeaba.png) |  
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                                  Writing/ Storing images                                         |
+
+
+<h3> • Data Collection </h3>
+
+Now the code for data collection is complete , now we capture 100-300 images of each sign in different ways and store it .
+Go to the Teachable Machine site upload all your images and create a data model to compare and test images.
+The model obtained is of Keras type.
+
+
+| ![image](https://user-images.githubusercontent.com/111730373/203128427-63327e3a-605c-43ae-bf40-7ff63678088c.png) | 
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                                  Training Model                                                  |
+
+
+<h3> • Testing Code </h3>
+( To create the testing code copy the data collection code except the image saving part )
+
+1) Install the tensorflow package.
+
+2) Import Classifier from cvzone.
+
+3) Make your data model act as classifier.
+
+4) Make Prediction by comparing the image with model images the one with most match is displayed.
+
+| ![image](https://user-images.githubusercontent.com/111730373/203129615-f54e4ca6-a3aa-4f40-a1be-57b15c8209a5.png) |   
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                              Importing Classifier                                                |
+
+| ![image](https://user-images.githubusercontent.com/111730373/203130006-3be5e045-b606-4243-bc7e-7dc8f1a1ea61.png) |   
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                              Predcition of the sign                                              |
+
+
+
+<h3> • Results </h3>
+
+| ![image](https://user-images.githubusercontent.com/111730373/203130577-7caa7c9c-1fcc-4efd-8d62-4c847c28fd3e.png) |   
+| :--------------------------------------------------------------------------------------------------------------: |
+|                                                  A                                                               |
+
+
+
 
 
 
